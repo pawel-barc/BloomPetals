@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../styles/style_contact.css">
+	</head>
+	<body> 
+		<header>
+			<nav>
+				<div class="container">
+				<a href= "../index.html"> Home</a>
+				<a href= "../Souspages/Entreprise.html"> Entreprise</a>
+				<a href= "../Souspages/Realisations.html"> Realisations</a>
+				<a href= "contact.html"> Contact</a>
+				<input class="L1" type="text">
+			</nav>	
+		</header>
+			<h1>Contactez-nous</h1>
+			<p>Une question, envie de nous envoyer un message?<br> N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+			<div>
+			<div class="contactez-nous">
+			<form action="traitement php" action="post">
+				<select name="civilité">
+					<option value="Sélectionez">Sélectionez votre civilité</option>
+					<option value="Monsieur">Monsieur</option>
+					<option value="Madame">Madamme</option>
+				</select>
+				<div class="prenom">
+					<label for="prenom"> Entrez votre prenom</label>
+					<input class="L1" type="text" name="prenom" id="prenom" ><br>
+					<label for="nom"> Entrez votre nom</label>
+					<input class="L1" type="text" name="nom" id="nom" ><br>
+					<label for="adressepostale"> Entrez votre adresse postale</label>
+					<input class="L1" type="adressepostale" name="adressepostale" id="adresse" placeholder="monadresse@mail.com"required><br>
+					<label for="sujet"> Quel est le sujet de votre message?</label>
+					<input class="L1" type="sujet" name="nom" id="sujet" ><br>
+					<label class="message" for="message">Votre message:</label>
+					<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+					</div>
+					<div>
+					<input class="L1" type="checkbox" name="checkbox">J'ai lu et j'accepte la politique de confidentialité
+					de l’entreprise.
+					<button type="submit">Envoyer mon message</button>	
+				</div>		
+			</form>
+		</div>	
+	</body>
+</html>

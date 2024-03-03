@@ -1,0 +1,91 @@
+body{
+	background-color: lightyellow;	
+}
+ .container{
+ 	display : flex;
+ 	justify-content flex;
+ 	background-color: #999;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	font-weight: bold;
+ 	height: 36px;
+ 	padding-left: 30px;
+ 	border-radius: 10px;
+}
+ .div{
+ 	text-decoration: none;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ .L1{
+	border-radius: 20px;
+	background-color: #c0c0c0;
+	align-content: right;
+	height: 20px;
+	width: 150px
+	margin: 5px; 
+	padding: 1px;
+	
+}
+h1{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 40px;
+}
+p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+select{
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	margin bottom: 20px;
+	background-color: aqua;
+	border-radius: 5px;
+	text-align: center;
+}
+input{
+	margin: 10px;
+	padding: 10px;
+	height: 10px;
+	background-color: lightgreen;
+	border-radius: 5px;
+	text-align: left;
+}
+button{
+	width: 150px;
+	background-color: orange;
+	border-radius: 5px;
+	margin: 10px;
+}
+.contactez-nous{
+	justify-content: flex;
+	margin: 20px auto;
+	padding: 10px;
+	height: 900px;
+	width: 700px;
+	border: 1px;
+	border-radius: 15px;
+	background-color: pink;
+	text-align: left;
+}
+textarea{
+	height: 300px;
+	border-radius: 10px;
+	text-align: left;
+	padding: 20px;
+}
+
+.prenom{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+
+
